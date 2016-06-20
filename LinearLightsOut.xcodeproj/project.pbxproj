@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		438445C11D18586E00609BEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438445C01D18586E00609BEB /* AppDelegate.swift */; };
+		438445C31D18586E00609BEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438445C21D18586E00609BEB /* ViewController.swift */; };
+		438445C61D18586E00609BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438445C41D18586E00609BEB /* Main.storyboard */; };
+		438445C81D18586E00609BEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438445C71D18586E00609BEB /* Assets.xcassets */; };
+		438445CB1D18586E00609BEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438445C91D18586E00609BEB /* LaunchScreen.storyboard */; };
+		438445D61D18586E00609BEB /* LinearLightsOutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438445D51D18586E00609BEB /* LinearLightsOutTests.swift */; };
+		438445E11D18586E00609BEB /* LinearLightsOutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438445E01D18586E00609BEB /* LinearLightsOutUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		438445D21D18586E00609BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 438445B51D18586E00609BEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 438445BC1D18586E00609BEB;
+			remoteInfo = LinearLightsOut;
+		};
+		438445DD1D18586E00609BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 438445B51D18586E00609BEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 438445BC1D18586E00609BEB;
+			remoteInfo = LinearLightsOut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		438445BD1D18586E00609BEB /* LinearLightsOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinearLightsOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		438445C01D18586E00609BEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		438445C21D18586E00609BEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		438445C51D18586E00609BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		438445C71D18586E00609BEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		438445CA1D18586E00609BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		438445CC1D18586E00609BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438445D11D18586E00609BEB /* LinearLightsOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinearLightsOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		438445D51D18586E00609BEB /* LinearLightsOutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearLightsOutTests.swift; sourceTree = "<group>"; };
+		438445D71D18586E00609BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438445DC1D18586E00609BEB /* LinearLightsOutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinearLightsOutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		438445E01D18586E00609BEB /* LinearLightsOutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearLightsOutUITests.swift; sourceTree = "<group>"; };
+		438445E21D18586E00609BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		438445BA1D18586E00609BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438445CE1D18586E00609BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438445D91D18586E00609BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		438445B41D18586E00609BEB = {
+			isa = PBXGroup;
+			children = (
+				438445BF1D18586E00609BEB /* LinearLightsOut */,
+				438445D41D18586E00609BEB /* LinearLightsOutTests */,
+				438445DF1D18586E00609BEB /* LinearLightsOutUITests */,
+				438445BE1D18586E00609BEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		438445BE1D18586E00609BEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				438445BD1D18586E00609BEB /* LinearLightsOut.app */,
+				438445D11D18586E00609BEB /* LinearLightsOutTests.xctest */,
+				438445DC1D18586E00609BEB /* LinearLightsOutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		438445BF1D18586E00609BEB /* LinearLightsOut */ = {
+			isa = PBXGroup;
+			children = (
+				438445C01D18586E00609BEB /* AppDelegate.swift */,
+				438445C21D18586E00609BEB /* ViewController.swift */,
+				438445C41D18586E00609BEB /* Main.storyboard */,
+				438445C71D18586E00609BEB /* Assets.xcassets */,
+				438445C91D18586E00609BEB /* LaunchScreen.storyboard */,
+				438445CC1D18586E00609BEB /* Info.plist */,
+			);
+			path = LinearLightsOut;
+			sourceTree = "<group>";
+		};
+		438445D41D18586E00609BEB /* LinearLightsOutTests */ = {
+			isa = PBXGroup;
+			children = (
+				438445D51D18586E00609BEB /* LinearLightsOutTests.swift */,
+				438445D71D18586E00609BEB /* Info.plist */,
+			);
+			path = LinearLightsOutTests;
+			sourceTree = "<group>";
+		};
+		438445DF1D18586E00609BEB /* LinearLightsOutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				438445E01D18586E00609BEB /* LinearLightsOutUITests.swift */,
+				438445E21D18586E00609BEB /* Info.plist */,
+			);
+			path = LinearLightsOutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		438445BC1D18586E00609BEB /* LinearLightsOut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438445E51D18586E00609BEB /* Build configuration list for PBXNativeTarget "LinearLightsOut" */;
+			buildPhases = (
+				438445B91D18586E00609BEB /* Sources */,
+				438445BA1D18586E00609BEB /* Frameworks */,
+				438445BB1D18586E00609BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinearLightsOut;
+			productName = LinearLightsOut;
+			productReference = 438445BD1D18586E00609BEB /* LinearLightsOut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		438445D01D18586E00609BEB /* LinearLightsOutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438445E81D18586E00609BEB /* Build configuration list for PBXNativeTarget "LinearLightsOutTests" */;
+			buildPhases = (
+				438445CD1D18586E00609BEB /* Sources */,
+				438445CE1D18586E00609BEB /* Frameworks */,
+				438445CF1D18586E00609BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				438445D31D18586E00609BEB /* PBXTargetDependency */,
+			);
+			name = LinearLightsOutTests;
+			productName = LinearLightsOutTests;
+			productReference = 438445D11D18586E00609BEB /* LinearLightsOutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		438445DB1D18586E00609BEB /* LinearLightsOutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438445EB1D18586E00609BEB /* Build configuration list for PBXNativeTarget "LinearLightsOutUITests" */;
+			buildPhases = (
+				438445D81D18586E00609BEB /* Sources */,
+				438445D91D18586E00609BEB /* Frameworks */,
+				438445DA1D18586E00609BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				438445DE1D18586E00609BEB /* PBXTargetDependency */,
+			);
+			name = LinearLightsOutUITests;
+			productName = LinearLightsOutUITests;
+			productReference = 438445DC1D18586E00609BEB /* LinearLightsOutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		438445B51D18586E00609BEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jack Richard";
+				TargetAttributes = {
+					438445BC1D18586E00609BEB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					438445D01D18586E00609BEB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 438445BC1D18586E00609BEB;
+					};
+					438445DB1D18586E00609BEB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 438445BC1D18586E00609BEB;
+					};
+				};
+			};
+			buildConfigurationList = 438445B81D18586E00609BEB /* Build configuration list for PBXProject "LinearLightsOut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 438445B41D18586E00609BEB;
+			productRefGroup = 438445BE1D18586E00609BEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				438445BC1D18586E00609BEB /* LinearLightsOut */,
+				438445D01D18586E00609BEB /* LinearLightsOutTests */,
+				438445DB1D18586E00609BEB /* LinearLightsOutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		438445BB1D18586E00609BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438445CB1D18586E00609BEB /* LaunchScreen.storyboard in Resources */,
+				438445C81D18586E00609BEB /* Assets.xcassets in Resources */,
+				438445C61D18586E00609BEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438445CF1D18586E00609BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438445DA1D18586E00609BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		438445B91D18586E00609BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438445C31D18586E00609BEB /* ViewController.swift in Sources */,
+				438445C11D18586E00609BEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438445CD1D18586E00609BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438445D61D18586E00609BEB /* LinearLightsOutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438445D81D18586E00609BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438445E11D18586E00609BEB /* LinearLightsOutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		438445D31D18586E00609BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 438445BC1D18586E00609BEB /* LinearLightsOut */;
+			targetProxy = 438445D21D18586E00609BEB /* PBXContainerItemProxy */;
+		};
+		438445DE1D18586E00609BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 438445BC1D18586E00609BEB /* LinearLightsOut */;
+			targetProxy = 438445DD1D18586E00609BEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		438445C41D18586E00609BEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				438445C51D18586E00609BEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		438445C91D18586E00609BEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				438445CA1D18586E00609BEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		438445E31D18586E00609BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		438445E41D18586E00609BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		438445E61D18586E00609BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LinearLightsOut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rosehulman.LinearLightsOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		438445E71D18586E00609BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LinearLightsOut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rosehulman.LinearLightsOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		438445E91D18586E00609BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LinearLightsOutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rosehulman.LinearLightsOutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinearLightsOut.app/LinearLightsOut";
+			};
+			name = Debug;
+		};
+		438445EA1D18586E00609BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LinearLightsOutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rosehulman.LinearLightsOutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinearLightsOut.app/LinearLightsOut";
+			};
+			name = Release;
+		};
+		438445EC1D18586E00609BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LinearLightsOutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rosehulman.LinearLightsOutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LinearLightsOut;
+			};
+			name = Debug;
+		};
+		438445ED1D18586E00609BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LinearLightsOutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rosehulman.LinearLightsOutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LinearLightsOut;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		438445B81D18586E00609BEB /* Build configuration list for PBXProject "LinearLightsOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438445E31D18586E00609BEB /* Debug */,
+				438445E41D18586E00609BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		438445E51D18586E00609BEB /* Build configuration list for PBXNativeTarget "LinearLightsOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438445E61D18586E00609BEB /* Debug */,
+				438445E71D18586E00609BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		438445E81D18586E00609BEB /* Build configuration list for PBXNativeTarget "LinearLightsOutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438445E91D18586E00609BEB /* Debug */,
+				438445EA1D18586E00609BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		438445EB1D18586E00609BEB /* Build configuration list for PBXNativeTarget "LinearLightsOutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438445EC1D18586E00609BEB /* Debug */,
+				438445ED1D18586E00609BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 438445B51D18586E00609BEB /* Project object */;
+}
