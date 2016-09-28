@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		431B30AD1D2417E60078CAD3 /* LinearLightsOutGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 431B30AC1D2417E60078CAD3 /* LinearLightsOutGame.m */; };
 		438445C11D18586E00609BEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438445C01D18586E00609BEB /* AppDelegate.swift */; };
 		438445C31D18586E00609BEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438445C21D18586E00609BEB /* ViewController.swift */; };
 		438445C61D18586E00609BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438445C41D18586E00609BEB /* Main.storyboard */; };
@@ -14,6 +15,16 @@
 		438445CB1D18586E00609BEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438445C91D18586E00609BEB /* LaunchScreen.storyboard */; };
 		438445D61D18586E00609BEB /* LinearLightsOutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438445D51D18586E00609BEB /* LinearLightsOutTests.swift */; };
 		438445E11D18586E00609BEB /* LinearLightsOutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438445E01D18586E00609BEB /* LinearLightsOutUITests.swift */; };
+		438445F81D18593200609BEB /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 438445EE1D18593200609BEB /* Icon-60.png */; };
+		438445F91D18593200609BEB /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 438445EF1D18593200609BEB /* Icon-72.png */; };
+		438445FA1D18593200609BEB /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 438445F01D18593200609BEB /* Icon-72@2x.png */; };
+		438445FB1D18593200609BEB /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 438445F11D18593200609BEB /* Icon-Small-50.png */; };
+		438445FC1D18593200609BEB /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 438445F21D18593200609BEB /* Icon-Small-50@2x.png */; };
+		438445FD1D18593200609BEB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 438445F31D18593200609BEB /* Icon.png */; };
+		438445FE1D18593200609BEB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 438445F41D18593200609BEB /* Icon@2x.png */; };
+		438445FF1D18593200609BEB /* iconBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 438445F51D18593200609BEB /* iconBig.png */; };
+		438446001D18593200609BEB /* light_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 438445F61D18593200609BEB /* light_off.png */; };
+		438446011D18593200609BEB /* light_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 438445F71D18593200609BEB /* light_on.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		431B30AA1D2417E50078CAD3 /* LinearLightsOut-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LinearLightsOut-Bridging-Header.h"; sourceTree = "<group>"; };
+		431B30AB1D2417E60078CAD3 /* LinearLightsOutGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearLightsOutGame.h; sourceTree = "<group>"; };
+		431B30AC1D2417E60078CAD3 /* LinearLightsOutGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinearLightsOutGame.m; sourceTree = "<group>"; };
 		438445BD1D18586E00609BEB /* LinearLightsOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinearLightsOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		438445C01D18586E00609BEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		438445C21D18586E00609BEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,16 @@
 		438445DC1D18586E00609BEB /* LinearLightsOutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinearLightsOutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		438445E01D18586E00609BEB /* LinearLightsOutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearLightsOutUITests.swift; sourceTree = "<group>"; };
 		438445E21D18586E00609BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438445EE1D18593200609BEB /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		438445EF1D18593200609BEB /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		438445F01D18593200609BEB /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		438445F11D18593200609BEB /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		438445F21D18593200609BEB /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		438445F31D18593200609BEB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		438445F41D18593200609BEB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		438445F51D18593200609BEB /* iconBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconBig.png; sourceTree = "<group>"; };
+		438445F61D18593200609BEB /* light_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_off.png; sourceTree = "<group>"; };
+		438445F71D18593200609BEB /* light_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_on.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +126,20 @@
 				438445C41D18586E00609BEB /* Main.storyboard */,
 				438445C71D18586E00609BEB /* Assets.xcassets */,
 				438445C91D18586E00609BEB /* LaunchScreen.storyboard */,
+				438445EE1D18593200609BEB /* Icon-60.png */,
+				438445EF1D18593200609BEB /* Icon-72.png */,
+				438445F01D18593200609BEB /* Icon-72@2x.png */,
+				438445F11D18593200609BEB /* Icon-Small-50.png */,
+				438445F21D18593200609BEB /* Icon-Small-50@2x.png */,
+				438445F31D18593200609BEB /* Icon.png */,
+				438445F41D18593200609BEB /* Icon@2x.png */,
+				438445F51D18593200609BEB /* iconBig.png */,
+				438445F61D18593200609BEB /* light_off.png */,
+				438445F71D18593200609BEB /* light_on.png */,
 				438445CC1D18586E00609BEB /* Info.plist */,
+				431B30AB1D2417E60078CAD3 /* LinearLightsOutGame.h */,
+				431B30AC1D2417E60078CAD3 /* LinearLightsOutGame.m */,
+				431B30AA1D2417E50078CAD3 /* LinearLightsOut-Bridging-Header.h */,
 			);
 			path = LinearLightsOut;
 			sourceTree = "<group>";
@@ -229,9 +266,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				438445FD1D18593200609BEB /* Icon.png in Resources */,
 				438445CB1D18586E00609BEB /* LaunchScreen.storyboard in Resources */,
+				438445FB1D18593200609BEB /* Icon-Small-50.png in Resources */,
+				438445FC1D18593200609BEB /* Icon-Small-50@2x.png in Resources */,
+				438446011D18593200609BEB /* light_on.png in Resources */,
+				438445F91D18593200609BEB /* Icon-72.png in Resources */,
+				438445FA1D18593200609BEB /* Icon-72@2x.png in Resources */,
+				438446001D18593200609BEB /* light_off.png in Resources */,
 				438445C81D18586E00609BEB /* Assets.xcassets in Resources */,
+				438445F81D18593200609BEB /* Icon-60.png in Resources */,
+				438445FF1D18593200609BEB /* iconBig.png in Resources */,
 				438445C61D18586E00609BEB /* Main.storyboard in Resources */,
+				438445FE1D18593200609BEB /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +305,7 @@
 			files = (
 				438445C31D18586E00609BEB /* ViewController.swift in Sources */,
 				438445C11D18586E00609BEB /* AppDelegate.swift in Sources */,
+				431B30AD1D2417E60078CAD3 /* LinearLightsOutGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +449,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LinearLightsOut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.rosehulman.LinearLightsOut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LinearLightsOut/LinearLightsOut-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -412,10 +463,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LinearLightsOut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.rosehulman.LinearLightsOut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LinearLightsOut/LinearLightsOut-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +537,7 @@
 				438445E71D18586E00609BEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		438445E81D18586E00609BEB /* Build configuration list for PBXNativeTarget "LinearLightsOutTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +546,7 @@
 				438445EA1D18586E00609BEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		438445EB1D18586E00609BEB /* Build configuration list for PBXNativeTarget "LinearLightsOutUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +555,7 @@
 				438445ED1D18586E00609BEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
